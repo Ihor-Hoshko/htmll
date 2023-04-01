@@ -1,1 +1,26 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    background-color: #ffffff;
+    
+    font-family: "Roboto", sans-serif;
+  }
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    text-decoration: none;
+  }
