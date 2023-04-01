@@ -5,7 +5,7 @@
   "homepage": "https://ihor-hoshko.github.io/htmll/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /htmll/"
   },
   "repository": {
     "type": "git",
