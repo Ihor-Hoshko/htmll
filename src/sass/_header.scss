@@ -1,15 +1,65 @@
 .header {
     display: flex;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    
     
   }
 
 .all_nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
 }
 
 .nav_list {
     display: flex;
+    margin-right: 32px;
+}
+
+.nav_list_item {
+margin-right: 24px;
+}
+
+.nav_list_link {
+    font-family: 'Nanum Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 130%;
+
+letter-spacing: -0.03em;
+
+color: #252525;
+}
+
+.multi {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #252525;
+}
+
+.tech {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #5364FF;
+}
+
+.project_button {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+color: rgb(250, 250, 250);
+width: 163px;
+height: 40px;
+background: #5364FF;
+border-radius: 300px;
 }
