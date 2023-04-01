@@ -1,0 +1,62 @@
+
+.hero {
+    padding-top: 235px;
+    position: relative;
+}
+
+
+.hero_title {
+    display: block;
+    margin-left: 200px;
+    
+}
+
+.hero_title_link{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 110%;
+    letter-spacing: -5px;
+
+}
+
+.hero_multi {
+color:#252525;
+}
+
+.hero_tech {
+    color: #5364FF;
+}
+.hero_thumb {
+    position: absolute;
+    top: 0px;
+    left: 370px;
+    transform: rotate(18.46deg);
+}
+
+.hero_img {
+       
+    width: 1202.13px;
+height: 900.43px;
+}
+.hero_list {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.hero_item {
+    margin-right: 24px;
+}
+.hero_item:last-child {
+    margin-right: 0;
+}
+.hero_item_link {
+    font-family: 'Nanum Gothic', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 110%;
+text-decoration-line: underline;
+color: #252525;
+}
