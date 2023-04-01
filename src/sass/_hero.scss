@@ -2,6 +2,7 @@
 .hero {
     padding-top: 235px;
     position: relative;
+    
 }
 
 
@@ -30,7 +31,7 @@ color:#252525;
 }
 .hero_thumb {
     position: absolute;
-    top: 0px;
+    top: -30px;
     left: 370px;
     transform: rotate(18.46deg);
 }
@@ -59,4 +60,15 @@ font-size: 20px;
 line-height: 110%;
 text-decoration-line: underline;
 color: #252525;
+}
+
+.black {
+    position: relative;
+    display: block;
+    margin-top: 350px;
+    width: 100%;
+    background-color: #252525;
+    height: 130px;
+    
+    z-index: 1;
 }
